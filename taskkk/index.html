@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Myntra</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div>
+    <nav class="flex items-center">
+      <!-- <img class="w-20 cursor-pointer ml-12" src="./images/images-removebg-preview.png" alt=""> -->
+       <img class="w-20 cursor-pointer ml-12" src="./images/mynt-removebg-preview.png" alt="">
+      <ul class="flex-1 text-start ml-20 font-bold">
+        <li class="list-none inline-block px-2"><a class="px-2" href="#MEN">MEN</a></li>
+        <li class="list-none inline-block px-2"><a class="px-2" href="#WOMEN">WOMEN</a></li>
+        <li class="list-none inline-block px-2"><a class="px-2" href="#KIDS">KIDS</a></li>
+        <li class="list-none inline-block px-2"><a class="px-2" href="#HOME&LIVING">HOME&LIVING</a></li>
+        <li class="list-none inline-block px-2"><a class="px-2" href="#BEAUTY">BEAUTY</a></li>
+        <li class="list-none inline-block px-2"><a class="px-2" href="">STUDIO</a></li>
+      </ul>
+      <form class="d-flex mr-12 w-96" role="search">
+        <input class="form-control mr-4" type="search" placeholder="search for products,brands and more "
+          aria-label="Search">
+        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+      </form>
+      <div>
+        <img class="w-10 mr-8 ml-2 cursor-pointer" src="./images/p.png" alt="">
+        <p class="font-bold ml-2">Profile</p>
+      </div>
+      <div>
+        <img class="w-10 mr-8 ml-2 cursor-pointer" src="./images/w.png" alt="">
+        <p class="font-bold mr-4 cursor-pointer">Wishlist</p>
+      </div>
+      <div>
+        <img class="w-10 mr-8 cursor-pointer" src="./images/c.png" alt="">
+        <p class="font-bold ml-2 cursor-pointer">Bag</p>
+      </div>
+    </nav>
+    <img id="aa" class="px-20 cursor-pointer" src="./images/img1.jpg" alt="">
+  </div>
+  <div>
+    <h1 id="bb">COUPONS CORNER</h1>
+    <img id="cc" class="px-20 cursor-pointer" src="./images/img3.jpg" alt="">
+  </div>
+  <h1 id="hp"><span class="font-bold text-4xl">BRAND</span>RUSH</h1>
+  <div>
+    <div class="cursor-pointer">
+      <div class="d-flex justify-content-evenly flex-wrap mt-3 mb-3">
+        <div class="card" style="width: 18rem;">
+          <img id="ff" src="./images/12.jpg" class="card-img-top" alt="...">
+          <div id="mm" class="card-body ">
+            <h2 class="card-title text-2xl font-semibold ">Easy Going-Casuals</h2>
+            <p class="card-text text-2xl font-bold">MIN.80% OFF</p>
+            <!-- <a href="#" class="">Shop Now</a> -->
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img id="gg" src="./images/13.webp" class="card-img-top" alt="...">
+          <div id="nn" class="card-body">
+            <h2 class="card-title text-xl font-semibold">Cruelty-Free Personal Care</h2>
+            <p class="card-text text-2xl font-bold">BUY 1, GET 1 FREE</p>
+            <!-- <a href="#" class="">Shop Now</a> -->
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img id="ii" src="./images/14.webp" class="card-img-top" alt="...">
+          <div id="oo" class="card-body">
+            <h2 class="card-title text-xl font-semibold">Designer Sarees</h2>
+            <p class="card-text text-2xl font-bold">UNDER $699</p>
+            <!-- <a href="#" class="">Shop Now</a> -->
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img id="kk" src="./images/15.webp" class="card-img-top" alt="...">
+          <div id="pp" class="card-body">
+            <h2 class="card-title text-xl font-semibold">Trending Footwear</h2>
+            <p class="card-text text-2xl font-bold">STARTING <strike>$1999</strike> <span id="qq"> $999</span></p>
+            <!-- <a href="#" class="">Shop Now</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <section>
+      <div class="cursor-pointer">
+        <h1 id="dd">CATEGORIES TO CART</h1>
+        <div class="d-flex justify-content-evenly flex-wrap mt-14 mb-3">
+          <div class="card" style="width: 18rem;">
+            <img id="ff" src="./images/4.jpg" class="card-img-top" alt="...">
+            <div id="ee" class="card-body ">
+              <h2 class="card-title text-2xl font-semibold ">Ethnic Wear</h2>
+              <p class="card-text text-4xl font-bold">50-80% OFF</p>
+              <a href="#" class="">Shop Now</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="gg" src="./images/5.jpg" class="card-img-top" alt="...">
+            <div id="hh" class="card-body">
+              <h2 class="card-title text-2xl font-semibold">Casual Wear</h2>
+              <p class="card-text text-4xl font-bold">40-80% OFF</p>
+              <a href="#" class="">Shop Now</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="ii" src="./images/6.avif" class="card-img-top" alt="...">
+            <div id="jj" class="card-body">
+              <h2 class="card-title text-2xl font-semibold">Beauty & Makeup</h2>
+              <p class="card-text text-3xl font-bold">UP TO 60% OFF</p>
+              <a href="#" class="">Shop Now</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="kk" src="./images/7.jpg" class="card-img-top" alt="...">
+            <div id="ll" class="card-body">
+              <h2 class="card-title text-2xl font-semibold">Kidswear</h2>
+              <p class="card-text text-4xl font-bold">50-70% OFF</p>
+              <a href="#" class="">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cursor-pointer">
+        <div class="d-flex justify-content-evenly flex-wrap mt-3 mb-3">
+          <div class="card" style="width: 18rem;">
+            <img id="ff" src="./images/8.jpg" class="card-img-top" alt="...">
+            <div id="ee" class="card-body">
+              <h2 class="card-title text-2xl font-semibold ">Men'sFootwear</h2>
+              <p class="card-text text-4xl font-bold">50-70% OFF</p>
+              <a href="#" class="">Shop Now</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="gg" src="./images/9.webp" class="card-img-top" alt="...">
+            <div id="hh" class="card-body">
+              <h2 class="card-title text-2xl font-semibold">EyeWear</h2>
+              <p class="card-text text-3xl font-bold">UP TO 80% OFF</p>
+              <a href="#" class="">Shop Now</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="ii" src="./images/10.jpg" class="card-img-top" alt="...">
+            <div id="jj" class="card-body">
+              <h2 class="card-title text-2xl font-semibold">Headphones & speaker</h2>
+              <p class="card-text text-3xl font-bold">UP TO 70% OFF</p>
+              <a href="#" class="">Shop Now</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="kk" src="./images/11.jpg" class="card-img-top" alt="...">
+            <div id="ll" class="card-body">
+              <h2 class="card-title text-2xl font-semibold">Flip-Flops</h2>
+              <p class="card-text text-4xl font-bold">30-70% OFF</p>
+              <a href="#" class="">Shop Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="MEN">
+      <div>
+        <h1 id="ss">BIGGEST DEALS ON TOP BRANDS </h1>
+        <div class="cursor-pointer mt-14">
+          <div class="d-flex justify-content-evenly flex-wrap mt-3 mb-3">
+            <div class="card" style="width: 18rem;">
+              <img id="ff" src="./images/16.webp" class="card-img-top" alt="...">
+              <div id="tt" class="card-body ">
+                <img id="ro" src="./images/17-removebg-preview.png" alt="">
+                <p class="card-text text-2xl font-bold">30-60% OFF</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="gg" src="./images/19.webp" class="card-img-top" alt="...">
+              <div id="uu" class="card-body">
+                <img id="om" src="./images/Tommy-Hilfiger-Logo-removebg-preview.png" alt="">
+                <p class="card-text text-2xl font-bold">30-50% OFF</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="ii" src="./images/18.webp" class="card-img-top" alt="...">
+              <div id="vv" class="card-body">
+                <img id="re" src="./images/levis-logo-removebg-preview.png" alt="">
+                <p class="card-text text-2xl font-bold">MIN.40% OFF</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="kk" src="./images/20.jpg" class="card-img-top" alt="...">
+              <div id="xx" class="card-body">
+                <img id="nt" src="./images/ucb-removebg-preview.png" alt="">
+                <p class="card-text text-2xl font-bold">40-70% OFF</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cursor-pointer">
+          <div class="d-flex justify-content-evenly flex-wrap mt-3 mb-3">
+            <div class="card" style="width: 18rem;">
+              <img id="ff" src="./images/21.jpg" class="card-img-top" alt="...">
+              <div id="yy" class="card-body">
+                <img id="la" src="./images/Logo_nike_principal-removebg-preview.png" alt="">
+                <p class="card-text text-2xl font-bold">UP TO 50% OFF</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="gg" src="./images/22.avif" class="card-img-top" alt="...">
+              <div id="zz" class="card-body">
+                <img id="pt" src="./images/pumaa-removebg-preview.png" alt="">
+                <p class="card-text text-2xl font-bold">30-70% OFF</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="ii" src="./images/23.jpg" class="card-img-top" alt="...">
+              <div id="aaa" class="card-body">
+                <img id="op" src="./images/sketch-removebg-preview.png" alt="">
+                <p class="card-text text-2xl font-bold">UP TO 40% OFF</p>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="kk" src="./images/24.webp" class="card-img-top" alt="...">
+              <div id="bbb" class="card-body">
+                <img id="bag" src="./images/crocsss-removebg-preview.png" alt="">
+                <p class="card-text text-2xl font-bold">UP TO 50% OFF</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div id="hum" class="cursor-pointer">
+        <h1 id="eee">CATEGORIES TO BAG </h1>
+        <div id="ddd">
+          <div>
+            <img id="ccc" src="./images/25.avif" alt="">
+            <p id="fff" class="text-2xl font-semibold">Shirt</p>
+          </div>
+          <div>
+            <img id="ccc" src="./images/26.jpg" alt="">
+            <p id="ggg" class="text-2xl font-semibold">T-Shirt</p>
+          </div>
+          <div>
+            <img id="ccc" src="./images/27.avif" alt="">
+            <p id="hhh" class="text-2xl font-semibold">Pant</p>
+          </div>
+          <div>
+            <img id="ccc" src="./images/28.webp" alt="">
+            <p id="iii" class="text-2xl font-semibold">Shorts</p>
+          </div>
+          <div>
+            <img id="ccc" src="./images/29.jpeg" alt="">
+            <p id="jjj" class="text-2xl font-semibold">Casual Shoes</p>
+          </div>
+          <div>
+            <img id="ccc" src="./images/30.webp" alt="">
+            <p id="kkk" class="text-2xl font-semibold">Watches</p>
+          </div>
+        </div>
+      </div> -->
+      <div id="hum" class="cursor-pointer">
+        <h1 id="eee" class="text-center text-3xl font-semibold mt-12 md:mt-16">CATEGORIES TO BAG</h1>
+        <div id="ddd" class="flex flex-wrap justify-center mt-8 md:mt-12">
+            <div class="text-center mb-8 md:mb-0">
+                <img id="ccc" class="mx-auto w-48 h-48 rounded-full object-cover" src="./images/25.avif" alt="">
+                <p id="fff" class="text-xl md:text-2xl font-semibold mt-4">Shirt</p>
+            </div>
+            <div class="text-center mb-8 md:mb-0">
+                <img id="ccc" class="mx-auto w-48 h-48 rounded-full object-cover" src="./images/26.jpg" alt="">
+                <p id="ggg" class="text-xl md:text-2xl font-semibold mt-4">T-Shirt</p>
+            </div>
+            <div class="text-center mb-8 md:mb-0">
+                <img id="ccc" class="mx-auto w-48 h-48 rounded-full object-cover" src="./images/27.avif" alt="">
+                <p id="hhh" class="text-xl md:text-2xl font-semibold mt-4">Pant</p>
+            </div>
+            <div class="text-center mb-8 md:mb-0">
+                <img id="ccc" class="mx-auto w-48 h-48 rounded-full object-cover" src="./images/28.webp" alt="">
+                <p id="iii" class="text-xl md:text-2xl font-semibold mt-4">Shorts</p>
+            </div>
+            <div class="text-center mb-8 md:mb-0">
+                <img id="ccc" class="mx-auto w-48 h-48 rounded-full object-cover" src="./images/29.jpeg" alt="">
+                <p id="jjj" class="text-xl md:text-2xl font-semibold mt-4">Casual Shoes</p>
+            </div>
+            <div class="text-center mb-8 md:mb-0">
+                <img id="ccc" class="mx-auto w-48 h-48 rounded-full object-cover" src="./images/30.webp" alt="">
+                <p id="kkk" class="text-xl md:text-2xl font-semibold mt-4">Watches</p>
+            </div>
+        </div>
+    </div>
+    
+      <div class="cursor-pointer">
+        <h1 id="lll">TRENDING IN MEN'S</h1>
+        <div class="d-flex justify-content-evenly flex-wrap mt-14 mb-3">
+          <div class="card" style="width: 18rem;">
+            <img id="qqq" src="./images/31.webp" class="card-img-top" alt="...">
+            <div id="mmm" class="card-body ">
+              <h2 class="card-title text-xl font-semibold ">Handpicked Trendy Styles</h2>
+              <p class="card-text text-md font-bold">Update the language of comfort with these</p>
+              <a href="#" class="">+Explore</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="rrr" src="./images/32.webp" class="card-img-top" alt="...">
+            <div id="nnn" class="card-body">
+              <h2 class="card-title text-xl font-semibold">Best Of Activewear</h2>
+              <p class="card-text text-xl font-bold">Transform the way you train</p>
+              <a href="#" class="">+Explore</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="sss" src="./images/33.jpg" class="card-img-top" alt="...">
+            <div id="ooo" class="card-body">
+              <h2 class="card-title text-xl font-semibold">Flip-Flops & Sliders</h2>
+              <p class="card-text text-xl font-bold">Slide in to comfort and ease!</p>
+              <a href="#" class="">+Explore</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="ttt" src="./images/34.webp" class="card-img-top" alt="...">
+            <div id="ppp" class="card-body">
+              <h2 class="card-title text-xl font-semibold">White Watches</h2>
+              <p class="card-text text-xl font-bold">A classic in every sense of the word</p>
+              <a href="#" class="">+Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="WOMEN">
+      <div>
+        <h1 id="lll">CRAZY DEALS</h1>
+        <div class="cursor-pointer">
+          <div class="d-flex justify-content-evenly flex-wrap mt-14 mb-3">
+            <div class="card" style="width: 18rem;">
+              <img id="ff" src="./images/35.webp" class="card-img-top" alt="...">
+              <div id="mm" class="card-body ">
+                <h2 class="card-title text-2xl font-semibold ">Effortlessly Chic Styles</h2>
+                <p class="card-text text-2xl font-bold">MIN.50% OFF</p>
+                <!-- <a href="#" class="">Shop Now</a> -->
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="gg" src="./images/36.jpg" class="card-img-top" alt="...">
+              <div id="nn" class="card-body">
+                <h2 class="card-title text-xl font-semibold">Glam Picks & More</h2>
+                <p class="card-text text-2xl font-bold">MIN.60% OFF</p>
+                <!-- <a href="#" class="">Shop Now</a> -->
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="ii" src="./images/37.jpg" class="card-img-top" alt="...">
+              <div id="oo" class="card-body">
+                <h2 class="card-title text-xl font-semibold">Trendsetting Finds</h2>
+                <p class="card-text text-2xl font-bold">MIN.60% OFF</p>
+                <!-- <a href="#" class="">Shop Now</a> -->
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="kk" src="./images/38.jpg" class="card-img-top" alt="...">
+              <div id="pp" class="card-body">
+                <h2 class="card-title text-xl font-semibold">Fashionista's Faves</h2>
+                <p class="card-text text-2xl font-bold">MIN.70% OFF</p>
+                <!-- <a href="#" class="">Shop Now</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cursor-pointer">
+          <h1 id="tl">SHOP BY CATEGORY</h1>
+          <div class="d-flex justify-content-evenly flex-wrap mt-14 mb-3">
+            <div class="card" style="width: 18rem;">
+              <img id="uuu" src="./images/39.avif" class="card-img-top" alt="...">
+              <div id="vvv" class="card-body ">
+                <h2 class="card-title text-2xl font-semibold ">WFH CASUAL WEAR</h2>
+                <p class="card-text text-3xl font-bold">40-80% OFF</p>
+                <a href="#" class="">Shop Now</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="gg" src="./images/40.jpg" class="card-img-top" alt="...">
+              <div id="hh" class="card-body">
+                <h2 class="card-title text-2xl font-semibold">Western Wear</h2>
+                <p class="card-text text-3xl font-bold">50-70% OFF</p>
+                <a href="#" class="">Shop Now</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="xxx" src="./images/41.jpg" class="card-img-top" alt="...">
+              <div id="yyy" class="card-body">
+                <h2 class="card-title text-2xl font-semibold">Sleepwear</h2>
+                <p class="card-text text-3xl font-bold">UP TO 70% OFF</p>
+                <a href="#" class="">Shop Now</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="kk" src="./images/42.jpeg" class="card-img-top" alt="...">
+              <div id="ll" class="card-body">
+                <h2 class="card-title text-2xl font-semibold">Beauty & Makeup</h2>
+                <p class="card-text text-3xl font-bold">UP TO 80% OFF</p>
+                <a href="#" class="">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cursor-pointer">
+          <div class="d-flex justify-content-evenly flex-wrap mt-3 mb-3">
+            <div class="card" style="width: 18rem;">
+              <img id="zzz" src="./images/43.webp" class="card-img-top" alt="...">
+              <div id="wh" class="card-body">
+                <h2 class="card-title text-2xl font-semibold ">Footwear</h2>
+                <p class="card-text text-4xl font-bold">40-80% OFF</p>
+                <a href="#" class="">Shop Now</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="gg" src="./images/44.webp" class="card-img-top" alt="...">
+              <div id="hh" class="card-body">
+                <h2 class="card-title text-2xl font-semibold">Handbag</h2>
+                <p class="card-text text-3xl font-bold">40-80% OFF</p>
+                <a href="#" class="">Shop Now</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="it" src="./images/45.jpg" class="card-img-top" alt="...">
+              <div id="el" class="card-body">
+                <h2 class="card-title text-2xl font-semibold">Watches</h2>
+                <p class="card-text text-3xl font-bold">UP TO 70% OFF</p>
+                <a href="#" class="">Shop Now</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="kk" src="./images/46.jpg" class="card-img-top" alt="...">
+              <div id="ll" class="card-body">
+                <h2 class="card-title text-2xl font-semibold">Jewellery</h2>
+                <p class="card-text text-4xl font-bold">UP TO 80% OFF</p>
+                <a href="#" class="">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="KIDS">
+      <h1 id="tl">FAVOURITE BRANDS </h1>
+      <div id="razy" class="mt-14 cursor-pointer">
+        <img id="achi" class="ni" src="./images/allen-solly-junior-chennai-removebg-preview.png" alt="">
+        <img id="achi" id="ha" src="./images/nauti-removebg-preview.png" alt="">
+        <img id="achi" src="./images/us_polo_kids-removebg-preview.png" alt="">
+        <img id="achi" src="./images/klub-removebg-preview.png" alt="">
+        <img id="achi" src="./images/81985_gininjony-removebg-preview.png" alt="">
+        <img id="achi" src="./images/lllll-removebg-preview.png" alt="">
+      </div>
+      <div class="cursor-pointer">
+        <h1 id="tl">ICONIC BRANDS </h1>
+        <div class="d-flex justify-content-evenly flex-wrap mt-14 mb-3">
+          <div class="card" style="width: 18rem;">
+            <img id="ff" src="./images/47.jpeg" class="card-img-top" alt="...">
+            <div id="yy" class="card-body">
+              <img id="la" src="./images/hhhhhhh.png" alt="">
+              <!-- <p class="card-text text-2xl font-bold">UP TO 50% OFF</p> -->
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="gg" src="./images/48.jpg" class="card-img-top" alt="...">
+            <div id="zz" class="card-body">
+              <img id="pt" src="./images/mango-removebg-preview.png" alt="">
+              <!-- <p class="card-text text-2xl font-bold">30-70% OFF</p> -->
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="ii" src="./images/50.jpg" class="card-img-top" alt="...">
+            <div id="aaa" class="card-body">
+              <img id="op" src="./images/spen-removebg-preview.png" alt="">
+              <!-- <p class="card-text text-2xl font-bold">UP TO 40% OFF</p> -->
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="kk" src="./images/51.jpg" class="card-img-top" alt="...">
+            <div id="bbb" class="card-body">
+              <img id="bag" src="./images/Tommy-Hilfiger-Logo-removebg-preview.png" alt="">
+              <!-- <p class="card-text text-2xl font-bold">UP TO 50% OFF</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cursor-pointer">
+        <h1 id="lll">FASHION & ESSENTIALS</h1>
+        <div class="d-flex justify-content-evenly flex-wrap mt-14 mb-3">
+          <div class="card" style="width: 18rem;">
+            <img id="qqq" src="./images/52.avif" class="card-img-top" alt="...">
+            <div id="mmm" class="card-body ">
+              <!-- <h2 class="card-title text-xl font-semibold ">Handpicked Trendy Styles</h2>
+              <p class="card-text text-md font-bold">Update the language of comfort with these</p> -->
+              <a href="#" class="">+PROTECTIVE MASK</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="rrr" src="./images/53.jpg" class="card-img-top" alt="...">
+            <div id="nnn" class="card-body">
+              <!-- <h2 class="card-title text-xl font-semibold">Best Of Activewear</h2>
+              <p class="card-text text-xl font-bold">Transform the way you train</p> -->
+              <a href="#" class="">+BABY CARE</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="sss" src="./images/54.webp" class="card-img-top" alt="...">
+            <div id="ooo" class="card-body">
+              <!-- <h2 class="card-title text-xl font-semibold">Flip-Flops & Sliders</h2>
+              <p class="card-text text-xl font-bold">Slide in to comfort and ease!</p> -->
+              <a href="#" class="">+ETHNIC WEAR</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="ttt" src="./images/55.webp" class="card-img-top" alt="...">
+            <div id="ppp" class="card-body">
+              <!-- <h2 class="card-title text-xl font-semibold">White Watches</h2>
+              <p class="card-text text-xl font-bold">A classic in every sense of the word</p> -->
+              <a href="#" class="">+ONESIES</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="HOME&LIVING">
+      <div class="cursor-pointer">
+        <h1 id="sky" class="text-start ml-5">NICE TO SEE YOU, COME ON IN!</h1>
+        <div id="max" class="mt-14">
+          <div>
+            <img id="well" src="./images/56.jpg" alt="">
+            <p id="you" class="text-2xl">Bed Linen</p>
+          </div>
+          <div>
+            <img id="well" src="./images/57.webp" alt="">
+            <p id="tube" class="text-2xl">Furnishings</p>
+          </div>
+
+        </div>
+        <div class="cursor-pointer">
+          <div id="max" class="mt-14">
+            <div>
+              <img id="jish" src="./images/58.webp" alt="">
+              <p id="love" class="text-2xl">Art & Decor</p>
+            </div>
+            <div>
+              <img id="jish" src="./images/61.webp" alt="">
+              <p id="milk" class="text-2xl">Lamp & Lightings</p>
+            </div>
+          </div>
+          <h1 id="suky">Trends To Take Home!</h1>
+          <div class="d-flex justify-content-evenly flex-wrap mt-14 mb-3">
+            <div class="card" style="width: 18rem;">
+              <img id="appu" src="./images/64.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-title text-xl font-bold text-center">WEDDING CHECK-LIST</h1>
+                <p class="card-text text-center text-lg">Drape It!</p>
+                <!-- <a href="#" class="btn btn-primary">BOOK NOW</a> -->
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="appu" src="./images/65.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-xl font-bold text-center">COLOUR OF THE SEASON</h5>
+                <p class="card-text text-center text-lg">Flaunt Now</p>
+                <!-- <a href="#" class="btn btn-primary">BOOK NOW</a> -->
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img id="appu" src="./images/66.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-xl font-bold text-center">HANDCRAFTED</h5>
+                <p class="card-text text-center text-lg">Beautify Your Home</p>
+                <!-- <a href="#" class="btn btn-primary">BOOK NOW</a> -->
+              </div>
+            </div>
+          </div>
+    </section>
+    <section id="BEAUTY">
+      <div>
+        <div class="cursor-pointer"></div>
+        <h1 id="tl">PERSONAL CARE</h1>
+        <div class="d-flex justify-content-evenly flex-wrap mt-14 mb-3">
+          <div class="card" style="width: 18rem;">
+            <img id="uuu" src="./images/Parachute-Advansed-Gold-Coconut-Hair-Oil-400-ml1-removebg-preview.png"
+              class="card-img-top" alt="...">
+            <div id="vvv" class="card-body ">
+              <h2 class="card-title text-2xl font-semibold ">Parachute</h2>
+              <p class="card-text text-lg font-bold">Gold Coconut Hair Oil 400 ml</p>
+              <p class="font-bold">Rs.117 <strike class="text-sm font-thin">Rs.235 </strike><span id="saf"
+                  class="text-sm">(50%OFF)</span></p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="uuu" src="./images/sinn-removebg-preview.png" class="card-img-top" alt="...">
+            <div id="vvv" class="card-body ">
+              <h2 class="card-title text-2xl font-semibold ">Mamaearth</h2>
+              <p class="card-text text-lg font-bold">Onion Hair Oil With Redensyl</p>
+              <p class="font-bold">Rs.374 <strike class="text-sm font-thin">Rs.499 </strike><span id="saf"
+                  class="text-sm">(25%OFF)</span></p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="uuu" src="./images/amaz-removebg-preview.png" class="card-img-top" alt="...">
+            <div id="vvv" class="card-body ">
+              <h2 class="card-title text-2xl font-semibold ">FACES CANADA</h2>
+              <p class="card-text text-lg font-bold">Beyond Shine Lip Gloss -03</p>
+              <p class="font-bold">Rs.399 <strike class="text-sm font-thin">Rs.499 </strike><span id="saf"
+                  class="text-sm">(20%OFF)</span></p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="kk" src="./images/earth-removebg-preview.png" class="card-img-top" alt="...">
+            <div id="ll" class="card-body">
+              <h2 class="card-title text-2xl font-semibold ">Mamaearth</h2>
+              <p class="card-text text-md font-bold">3pcs Shampoo-Conditioner-oil</p>
+              <p class="font-bold">Rs.837 <strike class="text-sm font-thin">Rs.1117 </strike><span id="saf"
+                  class="text-sm">(25%OFF)</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cursor-pointer">
+        <div class="d-flex justify-content-evenly flex-wrap mt-3 mb-3">
+          <div class="card" style="width: 18rem;">
+            <img id="uuu" src="./images/ceta-removebg-preview.png" class="card-img-top" alt="...">
+            <div id="vvv" class="card-body ">
+              <h2 class="card-title text-2xl font-semibold ">Cetaphil</h2>
+              <p class="card-text text-lg font-bold">Oily Skin Cleanser-125ml</p>
+              <p class="font-bold">Rs.584 <strike class="text-sm font-thin">Rs.649 </strike><span id="saf"
+                  class="text-sm">(10%OFF)</span></p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="uuu" src="./images/hair-removebg-preview.png" class="card-img-top" alt="...">
+            <div id="vvv" class="card-body ">
+              <h2 class="card-title text-2xl font-semibold ">Gleava</h2>
+              <p class="card-text text-lg font-bold">Hairline Powder Concealer</p>
+              <p class="font-bold">Rs.601 <strike class="text-sm font-thin">Rs.699 </strike><span id="saf"
+                  class="text-sm">(14%OFF)</span></p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="uuu" src="./images/mini-removebg-preview.png" class="card-img-top" alt="...">
+            <div id="vvv" class="card-body ">
+              <h2 class="card-title text-2xl font-semibold ">Minimalist</h2>
+              <p class="card-text text-lg font-bold">Salicylic Face Wash</p>
+              <p class="font-bold">Rs.284 <strike class="text-sm font-thin">Rs.299 </strike><span id="saf"
+                  class="text-sm">(5%OFF)</span></p>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img id="kk" src="./images/vel-removebg-preview.png" class="card-img-top" alt="...">
+            <div id="ll" class="card-body">
+              <h2 class="card-title text-2xl font-semibold ">Marks & Spencer</h2>
+              <p class="card-text text-lg font-bold">Velvet Amber EDP 30 ml</p>
+              <p class="font-bold">Rs.699</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cursor-pointer"></div>
+      <div class="d-flex justify-content-evenly flex-wrap mt-14 mb-3">
+        <div class="card" style="width: 18rem;">
+          <img id="uuu" src="./images/lakme-removebg-preview.png" class="card-img-top" alt="...">
+          <div id="vvv" class="card-body ">
+            <h2 class="card-title text-2xl font-semibold ">Lakme</h2>
+            <p class="card-text text-lg font-bold">Forever Matte Compact</p>
+            <p class="font-bold">Rs.186 <strike class="text-sm font-thin">Rs.225 </strike><span id="saf"
+                class="text-sm">(17%OFF)</span></p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img id="uuu" src="./images/bella-removebg-preview.png" class="card-img-top" alt="...">
+          <div id="vvv" class="card-body ">
+            <h2 class="card-title text-2xl font-semibold ">Bella Vita Organic</h2>
+            <p class="card-text text-sm font-bold">Senorita Women EAU DE PARFUM</p>
+            <p class="font-bold">Rs.579 <strike class="text-sm font-thin">Rs.999 </strike><span id="saf"
+                class="text-sm">(42%OFF)</span></p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img id="uuu" src="./images/lotus-removebg-preview.png" class="card-img-top" alt="...">
+          <div id="vvv" class="card-body ">
+            <h2 class="card-title text-2xl font-semibold ">Lotus Herbals</h2>
+            <p class="card-text text-sm font-bold">Sustainable Safe Sun Sunscreen</p>
+            <p class="font-bold">Rs.109 <strike class="text-sm font-thin">Rs.199 </strike><span id="saf"
+                class="text-sm">(45%OFF)</span></p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img id="kk" src="./images/ponds-removebg-preview.png" class="card-img-top" alt="...">
+          <div id="ll" class="card-body">
+            <h2 class="card-title text-2xl font-semibold ">Ponds</h2>
+            <p class="card-text text-md font-bold">Activated Charchol Facewash</p>
+            <p class="font-bold">Rs.286 <strike class="text-sm font-thin">Rs.572 </strike><span id="saf"
+                class="text-sm">(50%OFF)</span></p>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="cursor-pointer">
+    <div class="d-flex justify-content-evenly flex-wrap mt-3 mb-3">
+      <div class="card" style="width: 18rem;">
+        <img id="uuu" src="./images/cintho-removebg-preview (1).png" class="card-img-top" alt="...">
+        <div id="vvv" class="card-body ">
+          <h2 class="card-title text-2xl font-semibold ">CINTHOL</h2>
+          <p class="card-text text-md font-bold">Set of 4 Cool Soap-150g Each</p>
+          <p class="font-bold">Rs.178 <strike class="text-sm font-thin">Rs.275 </strike><span id="saf"
+              class="text-sm">(35%OFF)</span></p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img id="uuu" src="./images/nivea-removebg-preview.png" class="card-img-top" alt="...">
+        <div id="vvv" class="card-body ">
+          <h2 class="card-title text-2xl font-semibold ">Nivea</h2>
+          <p class="card-text text-md font-bold">Men 3 Fresh Active Deodorant</p>
+          <p class="font-bold">Rs.384 <strike class="text-sm font-thin">Rs.855 </strike><span id="saf"
+              class="text-sm">(55%OFF)</span></p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img id="uuu" src="./images/dove-removebg-preview.png" class="card-img-top" alt="...">
+        <div id="vvv" class="card-body ">
+          <h2 class="card-title text-2xl font-semibold ">Dove</h2>
+          <p class="card-text text-md font-bold">Dryness Care Body Wash-800 ml</p>
+          <p class="font-bold">Rs.324 <strike class="text-sm font-thin">Rs.590 </strike><span id="saf"
+              class="text-sm">(45%OFF)</span></p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img id="kk" src="./images/garn-removebg-preview.png" class="card-img-top" alt="...">
+        <div id="ll" class="card-body">
+          <h2 class="card-title text-2xl font-semibold ">Garnier</h2>
+          <p class="card-text text-lg font-bold">Men Turbo Charcol Face Wash</p>
+          <p class="font-bold">Rs.267 <strike class="text-sm font-thin">Rs.399 </strike><span id="saf"
+              class="text-sm">(33%OFF)</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+  <section>
+    <div id="tarun">
+      <div id="varun">
+        <h5 id="liv" class="font-bold">ONLINE SHOPPING</h5>
+        <ul id="jinn">
+          <li><a href="">Men</a></li>
+          <li><a href="">Women</a></li>
+          <li><a href="">Kids</a></li>
+          <li><a href="">Home & Living</a></li>
+          <li><a href="">Beauty</a></li>
+          <li><a href="">Gift Cards</a></li>
+          <li><a href="">Myntra Insider</a></li>
+        </ul>
+      </div>
+      <div id="arun">
+        <h5 id="dea" class="font-bold">CUSTOMER POLICIES</h5>
+        <ul id="waht">
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">T&C</a></li>
+          <li><a href="">Terms Of Use</a></li>
+          <li><a href="">Track Orders</a></li>
+          <li><a href="">Shipping</a></li>
+          <li><a href="">Cancellation</a></li>
+          <li><a href="">Returns</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Grievance Officer</a></li>
+        </ul>
+      </div>
+      <div id="arun">
+        <h5 id="raam" class="font-bold">EXPERIENCE MYNTRA APP ON MOBILE</h5>
+        <div id="priya" class="cursor-pointer">
+          <i id="brands" class="fa-brands fa-google-play"></i>
+          <p id="bell">GET IT ON <br>
+          <p id="enter" class="font-semibold">GOOGLE PLAY</p>
+          </p>
+        </div>
+        <div id="riya" class="cursor-pointer">
+          <i id="brands" class="fa-brands fa-apple"></i>
+          <p id="belly" class="text-xs">DOWNLOAD ON THE <br>
+          <p id="shift" class="font-semibold">APP STORE</p>
+          </p>
+        </div>
+        <h5 id="antony" class="font-bold">KEEP IN TOUCH</h5>
+        <div id="iconcollection" class="cursor-pointer">
+          <div id="icon" >
+            <i class="fa-brands fa-facebook brandss"></i>
+            <i class="fa-brands fa-twitter brands"></i>
+            <i class="fa-brands fa-youtube brands"></i>
+            <i class="fa-brands fa-instagram brands"></i>
+          </div>
+        </div>
+      </div>
+      <div id="arun">
+        <p id="mish"><b>100% ORIGINAL</b> gurantee for <br> all products at myntra.com</p>
+        <p id="naseee"><b>RETURN WITHIN 14DAYS</b> of <br> receiving your order</p>
+      </div>
+      <div id="arun">
+        <h2 id="moon" class="font-bold">USEFUL LINKS</h2>
+        <ul id="sun">
+          <li><a href="">Blog</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Site Map</a></li>
+            <li><a href="">Corporate Information</a></li>
+            <li><a href="">Whitehat</a></li>
+            <li><a href="">Cleartrip</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</html>

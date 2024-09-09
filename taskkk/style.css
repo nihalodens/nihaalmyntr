@@ -1,0 +1,601 @@
+#aa{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+#bb{
+    margin-top:30px ;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Bowlby One", sans-serif;
+    font-size: 3rem;
+    color:brown;
+    cursor: pointer;
+}
+#cc{
+    margin-top: 20px;
+    width: 150%;
+    height: 400px;
+}
+#dd{
+    font-family: "Sevillana", cursive;
+    color:rgb(244, 78, 78);
+    text-align: center;
+    font-weight: 600;
+    margin-top:30px ; 
+    font-size: 3rem;   
+}
+#ee{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color:orangered;
+    color: white;
+    text-decoration: none;
+    
+}
+#ff{
+    width: 100%;
+    height: 300px;
+}
+#gg{
+    width: 100%;
+    height: 300px; 
+}
+#hh{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    /* background-color:orangered; */
+    color: black;
+    text-decoration: none;  
+}
+#ii{
+    width: 100%;
+    height: 300px;
+}
+#jj{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color:orangered;
+    color: white;
+    text-decoration: none; 
+}
+#kk{
+    width: 100%;
+    height: 300px;
+}
+#ll{
+    text-align: center;
+    /* width: 80%;
+    height: 50px;
+    background-color:orangered;
+    color: white;
+    text-decoration: none;   */
+}
+span{
+    color:white;
+    background-color: darkred;
+    font-size: xx-large;
+    font-weight: 600;
+}
+#hp{
+    text-align: center;
+    margin: 30px;
+}
+#mm{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    margin-top: 20px;
+}
+#nn{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    margin-top: 20px; 
+}
+#oo{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    margin-top: 20px; 
+}
+#pp{
+    margin-top: 20px;
+    text-align: center;
+}
+#qq{
+    color: black;
+    background-color: white;
+}
+#rr{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;  
+}
+#ss{
+    font-family: "Sevillana", cursive;
+    color:black;
+    text-align: center;
+    font-weight: 600;
+    margin-top:30px ; 
+    font-size: 3rem;   
+}
+#tt{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    margin-top: 20px;
+}
+#ro{
+    margin-top: -30px;
+    width: 60%;
+    text-align: center;
+    margin-left: 50px;
+}
+#uu{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    margin-top: 20px;
+
+}
+#om{
+    margin-top: -30px;
+    width: 60%;
+    text-align: center;
+    margin-left: 50px;
+
+}
+#vv{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    margin-top: -20px;
+}
+#re{
+    margin-top: -45px;
+    width: 60%;
+    text-align: center;
+    margin-left: 50px;
+}
+#xx{
+    margin-top: 20px;
+    text-align: center;
+}
+#nt{
+    margin-top: -30px;
+    text-align: center;
+    width: 60%;
+    margin-left: 50px;
+}
+#yy{
+    text-align: center;
+
+}
+#la{
+    margin-top: -30px;
+    width: 60%;
+    text-align: center;
+    margin-left: 50px;
+}
+#pt{
+    margin-top: -30px;
+    width: 60%;
+    text-align: center;
+    margin-left: 50px;
+}
+#zz{
+    text-align: center;
+    margin-top: -20px;
+
+}
+#op{
+    margin-top: -30px;
+    width: 60%;
+    text-align: center;
+    margin-left: 50px;
+}
+#aaa{
+    text-align: center;
+    margin-top: -20px;
+}
+#bag{
+    margin-top: 10px;
+    width: 60%;
+    text-align: center;
+    margin-left: 50px;
+}
+#bbb{
+    text-align: center;
+    margin-top: -20px;
+}
+#ccc{
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+}
+/* #ddd{
+    display: inline-flex;
+    margin-top: 50px;
+}
+#eee{
+    margin-top:50px ; 
+    font-family: "Sevillana", cursive;
+    color:black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem; 
+
+}
+#fff{
+    margin-left: 120px;
+}
+#ggg{
+    margin-left: 110px;
+}
+#hhh{
+    margin-left: 130px;
+}
+#iii{
+    margin-left: 130px;
+}
+#jjj{
+    margin-left: 90px;
+}
+#kkk{
+    margin-left: 110px;
+} */
+#lll{
+    margin-top:50px ; 
+    font-family: "Sevillana", cursive;
+    color:black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem; 
+}
+#qqq{
+    width: 100%;
+    height: 300px;
+}
+#mmm{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    margin-top: 20px;
+}
+#rrr{
+    width: 100%;
+    height: 300px;
+}
+#nnn{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    margin-top: 20px;
+}
+#sss{
+    width: 100%;
+    height: 300px;
+}
+#ooo{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    margin-top: 20px;
+}
+#ttt{
+    width: 100%;
+    height: 300px;
+}
+#ppp{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+#vvv{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    text-decoration: none;
+    
+}
+#uuu{
+    width: 100%;
+    height: 300px;
+}
+#yyy{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    text-decoration: none;
+    
+}
+#xxx{
+    width: 100%;
+    height: 300px;
+}
+#wh{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    text-decoration: none;
+    
+}
+#zzz{
+    width: 100%;
+    height: 300px;
+}
+#el{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: black;
+    text-decoration: none;
+    
+}
+#it{
+    width: 100%;
+    height: 300px;
+}
+/* #tl{
+    margin-top:50px ; 
+    font-family: "Sevillana", cursive;
+    color:black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem; 
+}
+#razy{
+    display: inline-flex;
+}
+#achi{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 1px;;
+    margin-left: 50px;
+} */
+#tl {
+    margin-top: 50px;
+    font-family: "Sevillana", cursive;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+#razy {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+#achi {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 1px;
+    margin-left: 50px;
+}
+.ni{
+    width: 40%;
+}
+#sky{
+    margin-top:50px ; 
+    font-family: "Zeyada", system-ui;
+    color:black;
+    font-weight: 600;
+    font-size: 2rem; 
+}
+#max{
+    display: inline-flex;
+}
+#well{
+    width: 50%;
+    margin-left: 70px;
+    transition: transform 0.3s ease;
+}
+#well:hover{
+    transform: scale(1.1);
+}
+#you{
+    margin-left: 220px;
+}
+#tube{
+    margin-left: 230px;
+}
+#jish{
+    width: 50%;
+    margin-left: 70px;
+    transition: transform 0.3s ease;
+}
+#jish:hover{
+    transform: scale(1.1);
+}
+#love{
+    margin-left: 210px;
+}
+#milk{
+    margin-left: 210px;
+}
+#umar{
+    width: 40%;
+    margin-left: 70px;
+}
+
+#suky{
+    margin-top:50px ; 
+    font-family: "Zeyada", system-ui;
+    color:black;
+    font-weight: 600;
+    font-size: 2rem; 
+    text-align: center;
+}
+#appu{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+#appu:hover{
+    transform: scale(1.1);
+}
+#saf{
+    background-color: white;
+    color:red;
+    font-weight: 1;
+}
+#tarun{
+    margin-top: 100px;
+    /* margin-left: 100px; */
+    width: 1540px;
+    height: 620px;
+    background-color: whitesmoke;
+}
+#arun{
+    margin-top: 100px;
+}
+#liv{
+    margin-left: 120px;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+#jinn{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+#dea{
+    margin-left: 420px;
+    margin-top: -319px;
+}
+#waht{
+    margin-left: 420px;
+    margin-top: 27px;
+}
+#raam{
+    margin-left: 700px;
+    margin-top: -389px;
+}
+#priya{
+    width: 9%;
+    height: 40px;
+    background-color: black;
+    color:white;
+    border-radius: 7px;
+    margin-left: 700px;
+    margin-top: 35px;
+}
+#riya{
+    width: 9%;
+    height: 40px;
+    background-color: black;
+    color:white;
+    border-radius: 7px;
+    margin-left: 870px;
+    margin-top: -40px;
+}
+#brands{
+    margin-top: 10px;
+    font-size: 1.25rem;
+    margin-left: 8px;
+}
+#bell{
+    margin-top: -35px;
+    margin-left: 33px;
+}
+#enter{
+    margin-top: -6px;
+    margin-left: 33px;
+}
+#belly{
+    margin-top: -33px;
+    margin-left: 25px;
+}
+#shift{
+    margin-top: -2px;
+    margin-left: 30px;
+}
+#antony{
+    margin-left: 700px;
+    margin-top: 30px;
+}
+#icon{
+    margin-top: 10px;
+    margin-left: 700px;
+}
+#mish{
+    margin-left: 1200px;
+    margin-top: -280px;
+
+}
+#naseee{
+    margin-left: 1200px;
+    margin-top: 30px;
+}
+#moon{
+    margin-left: 120px;
+    padding-top: 20px;
+
+}
+#sun{
+    margin-top: 30px;
+    margin-left: 120px;
+} 
+@media (max-width: 768px) {
+    #tl {
+        font-size: 2rem;
+    }
+
+    #razy {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        margin-left: 0;
+    }
+
+    #achi {
+        width: 150px;
+        height: 150px;
+        margin-left: 0;
+    }
+}
+@media (max-width: 480px) {
+    #tl {
+        font-size: 1.5rem;
+    }
+
+    #razy {
+        gap: 5px;
+    }
+
+    #achi {
+        width: 120px;
+        height: 120px;
+        margin-left: 0;
+    }
+}
+
+
+
+
